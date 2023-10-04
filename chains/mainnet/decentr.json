@@ -1,18 +1,20 @@
 {
     "chain_name": "decentr",
-    "api": ["https://rest.mainnet.decentr.xyz","https://api.decentr.nodestake.top"],
-    "rpc": ["https://ares.mainnet.decentr.xyz:443", "https://poseidon.mainnet.decentr.xyz:443","https://rpc.decentr.nodestake.top"],
+    "api": ["https://decentr-api.ibs.team","https://rest.mainnet.decentr.xyz"],
+    "rpc": ["https://decentr-rpc.ibs.team","https://poseidon.mainnet.decentr.xyz"],
     "snapshot_provider": "",
-    "sdk_version": "0.44.3",
+    "sdk_version": "0.45.9",
     "coin_type": "118",
-    "min_tx_fee": "3000",
+    "min_tx_fee": "5000",
     "addr_prefix": "decentr",
-    "logo": "/logos/decentr.png",
+    "logo": "/logos/decentr.svg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#66a4cd",
     "assets": [{
         "base": "udec",
         "symbol": "DEC",
         "exponent": "6",
-        "coingecko_id": "decentr", 
-        "logo": "/logos/decentr.png"
+        "coingecko_id": "decentr",
+        "logo": "/logos/decentr.svg"
     }]
 }

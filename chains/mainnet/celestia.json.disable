@@ -1,0 +1,21 @@
+{
+    "chain_name": "celestia",
+    "coingecko": "",
+    "api": ["https://api-t.celestia.nodestake.top"],
+    "rpc": ["https://rpc-t.celestia.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.5",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "celestia",
+    "logo": "/logos/celestia.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#7a2bf9",
+    "assets": [{
+        "base": "utia",
+        "symbol": "TIA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/celestia.png"
+    }]
+}

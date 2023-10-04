@@ -1,0 +1,21 @@
+{
+    "chain_name": "sge",
+    "api": ["https://sge-api.polkachu.com"],
+    "rpc": ["https://sge-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "sge",
+    "logo": "/logos/sge.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#c29f65",
+    "assets": [
+      {
+        "base": "usge",
+        "symbol": "SGE",
+        "exponent": "6",
+        "logo": "/logos/sge.png"
+      }
+    ]
+  }

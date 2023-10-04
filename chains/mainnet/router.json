@@ -1,0 +1,25 @@
+{
+    "chain_name": "router",
+    "api": ["https://lcd.testnet.routerchain.dev"],
+    "rpc": ["https://tm.rpc.testnet.routerchain.dev"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.8",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+        "low": 2400000000000000,
+        "average": 2500000000000000,
+        "high": 4000000000000000
+      },
+    "addr_prefix": "router",
+    "logo": "/logos/router.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#fe4356",
+    "assets": [{
+        "base": "route",
+        "symbol": "ROUTE",
+        "exponent": "18",
+        "coingecko_id": "route",
+        "logo": "/logos/router.png"
+    }]
+}

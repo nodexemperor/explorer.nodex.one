@@ -1,0 +1,20 @@
+{
+    "chain_name": "quasar-testnet",
+    "registry_name": "quasart",
+    "api": ["https://quasar-testnet-api.polkachu.com"],
+    "rpc": ["https://quasar-testnet-rpc.polkachu.com"],
+    "sdk_version": "0.45.14",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "quasar",
+    "logo": "/logos/quasar.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#7a87f9",
+    "assets": [{
+        "base": "uqsr",
+        "symbol": "QSR",
+        "exponent": "6",
+        "coingecko_id": "quasar-2",
+        "logo": "/logos/quasar.png"
+    }]
+}

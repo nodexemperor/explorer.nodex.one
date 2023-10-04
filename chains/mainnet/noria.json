@@ -1,0 +1,20 @@
+{
+    "chain_name": "noria",
+    "api": ["https://noria-testnet.api.kjnodes.com", "https://api-testnet-noria.nodeist.net", "https://noria-testnet-api.polkachu.com"],
+    "rpc": ["https://noria-testnet.rpc.kjnodes.com", "https://rpc-testnet-noria.nodeist.net", "https://noria-testnet-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.2",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "noria",
+    "logo": "https://noria.network/wp-content/uploads/2023/01/logo2_matte.gif",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#389fca",
+    "assets": [{
+        "base": "unoria",
+        "symbol": "NORIA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "https://noria.network/wp-content/uploads/2023/01/logo2_matte.gif"
+    }]
+}

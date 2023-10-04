@@ -1,0 +1,19 @@
+{
+    "chain_name": "babylon",
+    "api": ["https://lcd.testnet.babylonchain.io"],
+    "rpc": ["https://rpc.testnet.babylonchain.io"],
+    "sdk_version": "0.47.3",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "bbn",
+    "logo": "/logos/bbn.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#3b82f4",
+    "assets": [{
+        "base": "ubbn",
+        "symbol": "BBN",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/bbn.png"
+    }]
+}

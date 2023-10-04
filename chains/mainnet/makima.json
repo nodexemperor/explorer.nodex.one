@@ -1,0 +1,30 @@
+{
+    "chain_name": "makima",
+    "coingecko": "",
+    "api": [
+      {"provider": "Makima RollApp", "address": "https://lcd-makima.sxlmnwb.xyz"}
+  ],
+    "rpc": [
+      {"provider": "Makima RollApp", "address": "https://rpc-makima.sxlmnwb.xyz"}
+  ],
+    "provider_chain": {
+    "api": ["https://lcd-makima.sxlmnwb.xyz"]
+  },
+    "features": ["dashboard", "blocks", "ibc", "cosmwasm", "parameters", "supply"],
+    "sdk_version": "0.46.13",
+    "coin_type": 60,
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "ethm",
+    "logo": "/logos/makima.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#b27062",
+    "assets": [
+      {
+        "base": "uMKA",
+        "symbol": "MKA",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/makima.jpg"
+      }
+    ]
+}

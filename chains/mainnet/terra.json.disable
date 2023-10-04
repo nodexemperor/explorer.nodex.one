@@ -1,0 +1,20 @@
+{
+    "chain_name": "terra",
+    "api": ["https://phoenix-lcd.terra.dev"],
+    "rpc": ["https://phoenix-rpc.terra.dev"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.12-terra.1",
+    "coin_type": "330",
+    "min_tx_fee": "5000",
+    "addr_prefix": "terra",
+    "logo": "/logos/luna.svg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#e56f41",
+    "assets": [{
+        "base": "uluna",
+        "symbol": "LUNA",
+        "exponent": "6",
+        "coingecko_id": "terra-luna-2",
+        "logo": "/logos/luna.svg"
+    }]
+}

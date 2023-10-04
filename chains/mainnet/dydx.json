@@ -1,0 +1,19 @@
+{
+    "chain_name": "dydx",
+    "api": ["https://api-dydx-testnet.mms.team"],
+    "rpc": ["https://rpc-dydx-testnet.mms.team"],
+    "sdk_version": "0.47.1",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "dydx",
+    "logo": "/logos/dydx.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#5554cc",
+    "assets": [{
+        "base": "dv4tnt",
+        "symbol": "DV4TNT",
+        "exponent": "6",
+        "coingecko_id": "dydx",
+        "logo": "/logos/dydx.png"
+    }]
+}

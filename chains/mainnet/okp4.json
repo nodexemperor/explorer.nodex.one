@@ -1,0 +1,19 @@
+{
+    "chain_name": "okp4",
+    "api": ["https://okp4-testnet-api.polkachu.com", "https://okp4-testnet.api.kjnodes.com", "https://api-okp4.nodeist.net"],
+    "rpc": ["https://okp4-testnet-rpc.polkachu.com", "https://okp4-testnet.rpc.kjnodes.com", "https://rpc-okp4.nodeist.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.6",
+    "coin_type": "118",
+    "min_tx_fee": "8000",
+    "addr_prefix": "okp4",
+    "logo": "/logos/okp4.svg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#181c49",
+    "assets": [{
+        "base": "uknow",
+        "symbol": "KNOW",
+        "exponent": "6",
+        "logo": "/logos/okp4.svg"
+    }]
+}

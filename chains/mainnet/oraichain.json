@@ -1,0 +1,19 @@
+{
+    "chain_name": "oraichain",
+    "api": ["https://lcd.orai.io"],
+    "rpc": ["https://rpc.orai.io"],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "orai",
+    "logo": "/logos/oraichain.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#0A0B0B",
+    "assets": [{
+        "base": "orai",
+        "symbol": "ORAI",
+        "exponent": "6",
+        "coingecko_id": "oraichain-token",
+        "logo": "/logos/oraichain.jpg"
+    }]
+}

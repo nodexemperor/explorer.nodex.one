@@ -1,35 +1,26 @@
 {
-  "chain_name": "haqq",
-  "coingecko": "",
-    "api": [
-        {"provider": "Haqq Network", "address": "https://rest.cosmos.haqq.network"},
-        {"provider": "Haqq.sh", "address": "https://m-s1-sdk.haqq.sh"},
-        {"provider": "Allnodes", "address": "https://haqq-rest.publicnode.com"}
-    ],
-    "rpc": [
-        {"provider": "Haqq Network", "address": "https://rpc.tm.haqq.network"}, 
-        {"provider": "Haqq.sh", "address": "https://m-s1-tm.haqq.sh"}, 
-        {"provider": "Allnodes", "address": "https://haqq-rpc.publicnode.com:443"}
-    ],
-  "snapshot_provider": "",
-  "sdk_version": "0.46.10",
-  "coin_type": "60",
-  "min_tx_fee": "3000000000000000",
-  "addr_prefix": "haqq",
-  "logo": "/logos/haqq.svg",
-  "keplr_features": [
-    "ibc-transfer",
-    "ibc-go",
-    "eth-address-gen",
-    "eth-key-sign"
-  ],
-  "assets": [
-    {
-      "base": "aISLM",
-      "symbol": "ISLM",
-      "exponent": "18",
-      "coingecko_id": "",
-      "logo": "/logos/islm.svg"
-    }
-  ]
-}
+    "chain_name": "haqq",
+    "api": ["https://rest.cosmos.haqq.network", "https://api.haqq.nodestake.top"],
+    "rpc": ["https://rpc.tm.haqq.network", "https://rpc.haqq.nodestake.top"],    
+    "snapshot_provider": "",
+    "sdk_version": "0.46.10",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+      "low": 2400000000000000,
+      "average": 2500000000000000,
+      "high": 4000000000000000
+    },
+    "addr_prefix": "haqq",
+    "logo": "/logos/haqq.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#df8f4d",
+    "assets": [
+      {
+        "base": "aISLM",
+        "symbol": "ISLM",
+        "exponent": "18",
+        "logo": "/logos/haqq.png"
+      }
+    ]
+  }

@@ -1,0 +1,20 @@
+{
+    "chain_name": "lava",
+    "api": ["https://lava-testnet-api.polkachu.com", "https://lava-testnet.api.kjnodes.com", "https://lava-testnet-api.itrocket.net", "https://api-t.lava.nodestake.top"],
+    "rpc": ["https://lava-testnet-rpc.polkachu.com", "https://lava-testnet.rpc.kjnodes.com", "https://lava-testnet-rpc.itrocket.net", "https://rpc-t.lava.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "118",
+    "min_tx_fee": "800",
+    "addr_prefix": "lava",
+    "logo": "/logos/lava.jpg", 
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#d7001f",
+    "assets": [{
+        "base": "ulava",
+        "symbol": "LAVA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/lava.jpg"
+    }]
+}

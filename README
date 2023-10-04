@@ -1,0 +1,43 @@
+    ▐ ▄       ·▄▄▄▄  ▄▄▄ .▐▄• ▄  ▄▄▄·▄▄▌        ▄▄▄  ▄▄▄ .▄▄▄  
+   •█▌▐█▪     ██▪ ██ ▀▄.▀· █▌█▌▪▐█ ▄███•  ▪     ▀▄ █·▀▄.▀·▀▄ █·
+   ▐█▐▐▌ ▄█▀▄ ▐█· ▐█▌▐▀▀▪▄ ·██·  ██▀·██▪   ▄█▀▄ ▐▀▀▄ ▐▀▀▪▄▐▀▀▄ 
+   ██▐█▌▐█▌.▐▌██. ██ ▐█▄▄▌▪▐█·█▌▐█▪·•▐█▌▐▌▐█▌.▐▌▐█•█▌▐█▄▄▌▐█•█▌
+   ▀▀ █▪ ▀█▄▀▪▀▀▀▀▀•  ▀▀▀ •▀▀ ▀▀.▀   .▀▀▀  ▀█▄▀▪.▀  ▀ ▀▀▀ .▀  ▀
+              NODEXPLORER custom explorer by @ping-pub
+            https://github.com/ping-pub/explorer (master)
+
+This template should help get you started developing with Vue 3 in Vite.
+
+Recommended IDE Setup
+
+https://code.visualstudio.com
+https://marketplace.visualstudio.com/items?itemName=Vue.volar
+https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin
+
+Type Support for .vue Imports in TS
+
+TypeScript cannot handle type information for .vue imports by default, so we replace the tsc CLI with vue-tsc for type checking. In editors, we need TypeScript Vue Plugin (Volar) to make the TypeScript language service aware of .vue types.
+
+1. Disable the built-in TypeScript Extension
+   Run Extensions: Show Built-in Extensions from VSCode's command palette
+   Find TypeScript and JavaScript Language Features, right click and select Disable (Workspace)
+
+2. Reload the VSCode window by running Developer: Reload Window from the command palette.
+
+For the developers if you want to build this project, use npm package yarn to execute
+
+- Environment
+
+export NODE_OPTIONS="--max_old_space_size=4096"
+
+- Installing Dependency Project
+
+yarn install --ignore-engines
+
+- Compile and Hot-Reload for Development
+
+yarn run dev
+
+- Type-Check, Compile and Minify for Production
+
+yarn run build

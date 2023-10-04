@@ -1,0 +1,26 @@
+{
+    "chain_name": "althea",
+    "api": ["https://althea-testnet.api.kjnodes.com","https://api-t.althea.nodestake.top"],
+    "rpc": ["https://althea-testnet.rpc.kjnodes.com","https://rpc-t.althea.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.11",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+      "low": 2400000000000000,
+      "average": 2500000000000000,
+      "high": 4000000000000000
+    },
+    "addr_prefix": "althea",
+    "logo": "/logos/althea.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#407AA2",
+    "assets": [
+      {
+        "base": "aalthea",
+        "symbol": "ALTHEA",
+        "exponent": "18",
+        "logo": "/logos/althea.png"
+      }
+    ]
+  }

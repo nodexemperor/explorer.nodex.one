@@ -1,0 +1,20 @@
+{
+  "chain_name": "emperorhub",
+  "coingecko": "",
+  "api": ["https://rest.rollapp.nodexcapital.com"],
+  "rpc": ["https://rpc.rollapp.nodexcapital.com"],
+  "sdk_version": "0.46.13",
+  "coin_type": 60,
+  "min_tx_fee": "5000000000000000",
+  "addr_prefix": "ethm",
+  "logo": "/logos/emperorhub.png",
+  "assets": [
+    {
+      "base": "uEMH",
+      "symbol": "EMH",
+      "exponent": 18,
+      "coingecko_id": "",
+      "logo": "/logos/emperorhub.png"
+    }
+  ]
+}

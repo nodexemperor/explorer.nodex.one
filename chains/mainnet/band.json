@@ -1,19 +1,22 @@
 {
     "chain_name": "band",
-    "alias": "band-protocol",
-    "api": "https://laozi1.bandchain.org/api",
-    "rpc": ["http://rpc.laozi1.bandchain.org:80", "http://rpc.laozi1.bandchain.org:80"],
+    "api": ["https://laozi1.bandchain.org/api", "https://band-api.polkachu.com"],
+    "rpc": ["http://rpc.laozi1.bandchain.org", "https://band-rpc.polkachu.com"],
     "snapshot_provider": "",
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
     "addr_prefix": "band",
-    "coin_type": "494",
-    "min_tx_fee": "8000",
-    "assets": [{
+    "logo": "/logos/band-protocol.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#4520e6",
+    "assets": [
+      {
         "base": "uband",
         "symbol": "BAND",
         "exponent": "6",
-        "coingecko_id": "band-protocol", 
-        "logo": "/logos/band-protocol.svg"
-    }],
-    "logo": "/logos/band-protocol.svg",
-    "sdk_version": "0.45.8"
-}
+        "coingecko_id": "band-protocol",
+        "logo": "/logos/band-protocol.png"
+      }
+    ]
+  }

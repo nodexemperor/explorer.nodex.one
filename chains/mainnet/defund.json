@@ -1,0 +1,20 @@
+{
+    "chain_name": "defund",
+    "api": ["https://defund-testnet-api.itrocket.net","https://defund-testnet.api.kjnodes.com"],
+    "rpc": ["https://defund-testnet-rpc.itrocket.net","https://defund-testnet.rpc.kjnodes.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "defund",
+    "logo": "/logos/defund.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#63d4d7",
+    "assets": [{
+        "base": "ufetf",
+        "symbol": "FETF",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/defund.png"
+    }]
+}

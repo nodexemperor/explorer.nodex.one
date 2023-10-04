@@ -1,0 +1,20 @@
+{
+    "chain_name": "arkhadian",
+    "api":["https://api.arkh.nodestake.top", "https://arkh.api.m.anode.team"],
+    "rpc":["https://rpc.arkh.nodestake.top", "https://arkh.rpc.m.anode.team"],
+    "snapshot_provider": "",
+    "sdk_version": "0.44.5",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "arkh",
+    "logo": "/logos/arkh.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#07b2e6",
+    "assets": [{
+        "base": "arkh",
+        "symbol": "ARKH",
+        "exponent": 6,
+        "coingecko_id": "",
+        "logo": "/logos/arkh.png"
+    }]
+}

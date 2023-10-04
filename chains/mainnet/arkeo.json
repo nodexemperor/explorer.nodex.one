@@ -1,0 +1,19 @@
+{
+    "chain_name": "arkeo",
+    "api":["https://test-arkeo-api.kynraze.com","https://testnet-arkeo-api.lavenderfive.com"],
+    "rpc":["https://test-arkeo-rpc.kynraze.com","https://testnet-arkeo-rpc.lavenderfive.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "tarkeo",
+    "logo": "/logos/arkeo.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#3bacce",
+    "assets": [{
+        "base": "uarkeo",
+        "symbol": "ARKEO",
+        "exponent": 6,
+        "logo": "/logos/arkeo.png"
+    }]
+}

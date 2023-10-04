@@ -1,0 +1,20 @@
+{
+    "chain_name": "elys",
+    "api": ["https://elys-testnet-api.polkachu.com","https://elys-testnet.api.kjnodes.com","https://elys-testnet-api.itrocket.net","https://api-t.elys.nodestake.top"],
+    "rpc": ["https://elys-testnet-rpc.polkachu.com","https://elys-testnet.rpc.kjnodes.com","https://elys-testnet-rpc.itrocket.net","https://rpc-t.elys.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.7",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "elys",
+    "logo": "/logos/elys.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#848484",
+    "assets": [{
+        "base": "uelys",
+        "symbol": "ELYS",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/elys.png"
+    }]
+}

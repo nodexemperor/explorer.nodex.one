@@ -1,0 +1,36 @@
+{
+  "chain_name": "zetachain",
+  "api": [
+    "https://zetachain-testnet.api.kjnodes.com"
+  ],
+  "rpc": [
+    "https://zetachain-testnet.rpc.kjnodes.com"
+  ],
+  "snapshot_provider": "",
+  "sdk_version": "0.46.8",
+  "coin_type": "60",
+  "min_tx_fee": "",
+  "keplr_price_step": {
+    "low": 2400000000000000,
+    "average": 2500000000000000,
+    "high": 4000000000000000
+  },
+  "addr_prefix": "zeta",
+  "logo": "/logos/zetachain.png",
+  "keplr_features": [
+    "ibc-transfer",
+    "ibc-go",
+    "eth-address-gen",
+    "eth-key-sign"
+  ],
+  "assets": [
+    {
+      "base": "azeta",
+      "symbol": "tZETA",
+      "exponent": "18",
+      "coingecko_id": "",
+      "logo": "/logos/zetachain.png"
+    }
+  ],
+  "theme_color": "#005741"
+}

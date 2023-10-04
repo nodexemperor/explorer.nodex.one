@@ -1,3 +1,4 @@
-[submodule "explorer"]
-	path = explorer
-	url = https://github.com/ping-pub/explorer.git
+[submodule "nodexplorer"]
+	path = nodexplorer
+	url = https://github.com/nodexemperor/nodexplorer.git
+	branch = stable

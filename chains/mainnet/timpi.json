@@ -1,0 +1,20 @@
+{
+    "chain_name": "timpi",
+    "api": ["https://api-t.timpi.nodestake.top","https://api-timpi.nodeist.net"],
+    "rpc": ["https://rpc-t.timpi.nodestake.top","https://rpc-timpi.nodeist.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "timpitn",
+    "logo": "/logos/timpi.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#dc1e3a",
+    "assets": [{
+        "base": "utimpiTN",
+        "symbol": "TIMPICTN",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/timpi.jpg"
+    }]
+}

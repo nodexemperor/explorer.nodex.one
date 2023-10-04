@@ -1,0 +1,22 @@
+{
+    "chain_name": "empower",
+    "api": ["https://api.empower.nodestake.top", "https://empower-api.polkachu.com"],
+    "rpc": ["https://api.empower.nodestake.top", "https://empower-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.5",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "empower",
+    "logo": "/logos/empower.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#00d336",
+    "assets": [
+      {
+        "base": "umpwr",
+        "symbol": "MPWR",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/empowers.png"
+      }
+    ]
+  }

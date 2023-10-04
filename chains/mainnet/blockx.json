@@ -1,0 +1,26 @@
+{
+    "chain_name": "blockx",
+    "api": ["https://api-t.blockx.nodestake.top","https://api-testnet-blockx.nodeist.net"],
+    "rpc": ["https://rpc-t.blockx.nodestake.top","https://rpc-testnet-blockx.nodeist.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.7",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+      "low": 2400000000000000,
+      "average": 2500000000000000,
+      "high": 4000000000000000
+    },
+    "addr_prefix": "blockx",
+    "logo": "/logos/blockx.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#176dff",
+    "assets": [
+      {
+        "base": "abcx",
+        "symbol": "BCX",
+        "exponent": "18",
+        "logo": "/logos/blockx.png"
+      }
+    ]
+  }

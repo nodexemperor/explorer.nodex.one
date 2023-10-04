@@ -1,0 +1,25 @@
+{
+    "chain_name": "xpla",
+    "api": ["https://xpla-api.polkachu.com"],
+    "rpc": ["https://xpla-rpc.polkachu.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.9",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+        "low": 2400000000000000,
+        "average": 2500000000000000,
+        "high": 8500000000000000
+      },
+    "addr_prefix": "xpla",
+    "logo": "/logos/xpla.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#00a3ea",
+    "assets": [{
+        "base": "axpla",
+        "symbol": "XPLA",
+        "exponent": "18",
+        "coingecko_id": "xpla",
+        "logo": "/logos/xpla.png"
+    }]
+}

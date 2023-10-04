@@ -1,0 +1,29 @@
+{
+    "chain_name": "entangle",
+    "api": [
+        {"provider": "KonsorTech", "address": "https://testnet-entangle-api.konsortech.xyz"}
+    ],
+    "rpc": [
+        {"provider": "KonsorTech", "address": "https://testnet-entangle-rpc.konsortech.xyz"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.12",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+        "low": 2500000000000000,
+        "average": 3000000000000000,
+        "high": 5000000000000000
+      },
+    "addr_prefix": "ethm",
+    "logo": "/logos/entangle.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#FB37FF",
+    "assets": [{
+        "base": "aNGL",
+        "symbol": "NGL",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/entangle.png"
+    }]
+}

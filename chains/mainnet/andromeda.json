@@ -1,0 +1,21 @@
+{
+    "chain_name": "andromeda",
+    "api": ["https://andromeda-testnet-api.itrocket.net", "https://andromeda-testnet.api.kjnodes.com","https://api-t.andromeda.nodestake.top"],
+    "rpc": ["https://andromeda-testnet-rpc.itrocket.net", "https://andromeda-testnet.rpc.kjnodes.com","https://rpc-t.andromeda.nodestake.top"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.12",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "andr",
+    "logo": "/logos/andromeda.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#c43d60",
+    "assets": [
+      {
+        "base": "uandr",
+        "symbol": "ANDR",
+        "exponent": "6",
+        "logo": "/logos/andromeda.png"
+      }
+    ]
+  }

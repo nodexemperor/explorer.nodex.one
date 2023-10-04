@@ -1,0 +1,20 @@
+{
+    "chain_name": "kujira",
+    "api": ["https://kujira-api.polkachu.com", "https://kujira.api.kjnodes.com"],
+    "rpc": ["https://kujira-rpc.polkachu.com", "https://kujira.rpc.kjnodes.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": "118",
+    "min_tx_fee": "1250",
+    "addr_prefix": "kujira",
+    "logo": "/logos/kujira.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#e73835",
+    "assets": [{
+        "base": "ukuji",
+        "symbol": "KUJI",
+        "exponent": "6",
+        "coingecko_id": "kujira",
+        "logo": "/logos/kujira.png"
+    }]
+}

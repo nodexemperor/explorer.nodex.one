@@ -1,0 +1,20 @@
+{
+    "chain_name": "coreum",
+    "api": ["https://rest-coreum.ecostake.com"],
+    "rpc": ["https://rpc-coreum.ecostake.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.45.14",
+    "coin_type": "990",
+    "min_tx_fee": "5000",
+    "addr_prefix": "core",
+    "logo": "/logos/coreum.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#28d595",
+    "assets": [{
+        "base": "ucore",
+        "symbol": "CORE",
+        "exponent": "6",
+        "coingecko_id": "coreum",
+        "logo": "/logos/coreum.png"
+    }]
+}

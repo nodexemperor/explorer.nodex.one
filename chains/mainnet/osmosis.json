@@ -2,19 +2,12 @@
     "chain_name": "osmosis",
     "coingecko": "osmosis",
     "api": [
-        {"provider": "Osmosis", "address": "https://lcd.osmosis.zone"},
-        {"provider": "Notional", "address": "https://api-osmosis-ia.cosmosia.notional.ventures"},
-        {"provider": "Polkachu", "address": "https://osmosis-api.polkachu.com"},
-        {"provider": "Blockapsis", "address": "https://lcd-osmosis.blockapsis.com"},
-        {"provider": "Allnodes", "address": "https://osmosis-rest.publicnode.com"}
+        {"provider": "kjnodes.com 🦄", "address": "https://osmosis.api.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://osmosis-api.polkachu.com"}
     ],
     "rpc": [
-        {"provider": "Osmosis", "address": "https://rpc.osmosis.zone"}, 
-        {"provider": "Notional", "address": "https://rpc-osmosis-ia.cosmosia.notional.ventures:443"}, 
-        {"provider": "Polkachu", "address": "https://osmosis-rpc.polkachu.com:443"}, 
-        {"provider": "Validator Network", "address": "https://osmosis.validator.network:443"}, 
-        {"provider": "Blockapsis", "address": "https://rpc-osmosis.blockapsis.com:443"},
-        {"provider": "Allnodes", "address": "https://osmosis-rpc.publicnode.com:443"}
+        {"provider": "kjnodes.com 🦄", "address": "https://osmosis.rpc.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://osmosis-api.polkachu.com"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.1",

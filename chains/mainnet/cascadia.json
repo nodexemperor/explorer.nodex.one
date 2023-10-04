@@ -1,0 +1,25 @@
+{
+    "chain_name": "cascadia",
+    "api": ["https://lcd.cascadia.foundation","https://api-t.cascadia.nodestake.top","https://cascadia-testnet-api.itrocket.net"],
+    "rpc": ["https://rpc.cascadia.foundation","https://rpc-t.cascadia.nodestake.top","https://cascadia-testnet-rpc.itrocket.net"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.10",
+    "coin_type": "60",
+    "min_tx_fee": "",
+    "keplr_price_step": {
+        "low": 2400000000000000,
+        "average": 2500000000000000,
+        "high": 4000000000000000
+      },
+    "addr_prefix": "cascadia",
+    "logo": "/logos/cascadia.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#014c8d",
+    "assets": [{
+        "base": "aCC",
+        "symbol": "CC",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/cascadia.png"
+    }]
+}
