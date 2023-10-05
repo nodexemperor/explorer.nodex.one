@@ -1,8 +1,15 @@
 {
     "chain_name": "quasar",
-    "api": ["https://quasar-api.polkachu.com", "https://quasar.api.kjnodes.com"],
-    "rpc": ["https://quasar-rpc.polkachu.com", "https://quasar.rpc.kjnodes.com"],
-    "sdk_version": "0.45.14",
+    "registry_name": "quasar",
+    "api": [
+        {"provider": "kjnodes.com 🦄", "address": "https://quasar.api.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://quasar-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "kjnodes.com 🦄", "address": "https://quasar.rpc.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://quasar-rpc.polkachu.com"}
+    ],
+    "sdk_version": "0.45.16",
     "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "quasar",

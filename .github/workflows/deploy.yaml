@@ -3,6 +3,8 @@ name: Deploy to explorer.nodex.one
 on:
   push:
     branches: [ master ]
+  pull_request:
+    branches: [ master ]
   workflow_dispatch:
 
 permissions:
@@ -12,7 +14,7 @@ permissions:
 
 jobs:
   deploy:
-    name: Ping deploy
+    name: NODEXPLORER DEPLOY 
     runs-on: ubuntu-latest
     steps:
     - name: Environment
