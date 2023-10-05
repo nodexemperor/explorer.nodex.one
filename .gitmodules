@@ -1,4 +1,0 @@
-[submodule "nodexplorer"]
-	path = nodexplorer
-	url = https://github.com/nodexemperor/nodexplorer.git
-	branch = stable

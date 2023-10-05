@@ -1,0 +1,46 @@
+name: Commit to explorer.nodex.one
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  deploy:
+    name: Chains bump
+    runs-on: ubuntu-latest
+    steps:
+    - name: Clean Repository
+      run: rm -rf nodexplorer
+
+    - name: Git Checkout Latest
+      uses: actions/checkout@v3   
+      with:
+        token: ${{ secrets.ACCESS_TOKEN }}
+
+    - name: Fetch last commit
+      shell: bash
+      run: |
+        echo "latestcommit=$(git rev-parse HEAD)" >> $GITHUB_ENV
+
+    - name: Clone nodexplorer
+      run: |
+        git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/nodexplorer
+
+    - name: Setup config
+      run: cp -rf chains/* nodexplorer/chains/
+
+    - name: Setup logos
+      run: cp -rf logos nodexplorer/public/
+
+    - name: Update commit nodexplorer
+      run: |
+        cd nodexplorer
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add . && git commit -am "submodule: merge with https://github.com/nodexemperor/explorer.nodex.one/commit/${{ env.latestcommit }}" -s && git push || echo "No changes to commit"
