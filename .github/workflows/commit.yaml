@@ -2,20 +2,15 @@ name: explorer.nodex.one
 
 on:
   push:
-    branches: [ master ]
-  workflow_dispatch:
-
-permissions:
-  contents: write
-  pages: write
-  id-token: write
+    branches:
+      - master
 
 jobs:
-  deploy:
+  commit:
     name: Chains merge
     runs-on: ubuntu-latest
-    steps:
 
+    steps:
     - name: Git Checkout Latest
       uses: actions/checkout@v3   
       with:
