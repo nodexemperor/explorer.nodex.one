@@ -1,0 +1,27 @@
+name: JSON Checker
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  json-checker:
+    name: JSON Checker
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: 18
+
+    - name: Install jsonlint
+      run: npm install -g jsonlint
+
+    - name: Check JSON files
+      run: |
+        find chains/mainnet -type f -name "*.json" -print0 | xargs -0 -n1 jsonlint -q
