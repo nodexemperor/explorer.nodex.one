@@ -1,4 +1,4 @@
-name: Commit to explorer.nodex.one
+name: explorer.nodex.one
 
 on:
   push:
@@ -12,11 +12,9 @@ permissions:
 
 jobs:
   deploy:
-    name: Chains bump
+    name: Chains merge
     runs-on: ubuntu-latest
     steps:
-    - name: Clean Repository
-      run: rm -rf nodexplorer
 
     - name: Git Checkout Latest
       uses: actions/checkout@v3   
@@ -41,6 +39,6 @@ jobs:
     - name: Update commit nodexplorer
       run: |
         cd nodexplorer
-        git config --global user.name "github-actions[bot]"
-        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-        git add . && git commit -am "submodule: merge with https://github.com/nodexemperor/explorer.nodex.one/commit/${{ env.latestcommit }}" -s && git push || echo "No changes to commit"
+        git config --global user.name "Salman Wahib"
+        git config --global user.email "hello@sxlmnwb.xyz"
+        git add . && git commit -am "chains: merge with https://github.com/nodexemperor/explorer.nodex.one/commit/${{ env.latestcommit }}" -s && git push || echo "No changes to commit"
