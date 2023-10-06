@@ -1,7 +1,13 @@
 {
     "chain_name": "cascadia",
-    "api": ["https://lcd.cascadia.foundation","https://api-t.cascadia.nodestake.top","https://cascadia-testnet-api.itrocket.net"],
-    "rpc": ["https://rpc.cascadia.foundation","https://rpc-t.cascadia.nodestake.top","https://cascadia-testnet-rpc.itrocket.net"],
+    "api": [
+        {"provider": "NodeStake", "address": "https://api-t.cascadia.nodestake.top"},
+        {"provider": "itrocket", "address": "https://cascadia-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "NodeStake", "address": "https://rpc-t.cascadia.nodestake.top"},
+        {"provider": "itrocket", "address": "https://cascadia-testnet-rpc.itrocket.net"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.10",
     "coin_type": "60",
