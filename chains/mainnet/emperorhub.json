@@ -1,0 +1,30 @@
+{
+    "chain_name": "emperorhub",
+    "coingecko": "",
+    "api": [
+      {"provider": "Emperor Hub", "address": "https://rest.rollapp.nodex.one"}
+  ],
+    "rpc": [
+      {"provider": "Emperor Hub", "address": "https://rpc.rollapp.nodex.one"}
+  ],
+    "provider_chain": {
+    "api": ["https://rest.rollapp.nodex.one"]
+  },
+    "features": ["dashboard", "blocks", "ibc", "cosmwasm", "parameters", "supply"],
+    "sdk_version": "0.46.13",
+    "coin_type": 60,
+    "min_tx_fee": "5000000000000000",
+    "addr_prefix": "ethm",
+    "logo": "/logos/emperorhub.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#0A0B0B",
+    "assets": [
+      {
+        "base": "uEMH",
+        "symbol": "EMH",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/emperorhub.png"
+      }
+    ]
+}
