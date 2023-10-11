@@ -1,10 +1,11 @@
 {
     "chain_name": "entangle",
     "api": [
-        {"provider": "KonsorTech", "address": "https://testnet-entangle-api.konsortech.xyz"}
+        {"provider": "NodeStake", "address": "https://api-t.entangle.nodestake.top"},
+        {"provider": "🔥STAVR🔥", "address": "https://entangle.api.t.stavr.tech"}
     ],
     "rpc": [
-        {"provider": "KonsorTech", "address": "https://testnet-entangle-rpc.konsortech.xyz"}
+        {"provider": "NodeStake", "address": "https://rpc-t.entangle.nodestake.top"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
@@ -13,7 +14,7 @@
     "keplr_price_step": {
         "low": 2500000000000000,
         "average": 3000000000000000,
-        "high": 5000000000000000
+        "high": 4000000000000000
       },
     "addr_prefix": "ethm",
     "logo": "/logos/entangle.png",
