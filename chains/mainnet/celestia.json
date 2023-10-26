@@ -1,8 +1,8 @@
 {
     "chain_name": "celestia",
-    "coingecko": "",
-    "api": ["https://api-t.celestia.nodestake.top"],
-    "rpc": ["https://rpc-t.celestia.nodestake.top"],
+    "coingecko": "celestia",
+    "api": ["https://celestia-api.polkachu.com"],
+    "rpc": ["https://celestia-rpc.polkachu.com"],
     "snapshot_provider": "",
     "sdk_version": "0.45.5",
     "coin_type": "118",
