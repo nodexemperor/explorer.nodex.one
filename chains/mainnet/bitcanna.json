@@ -1,0 +1,19 @@
+{
+    "chain_name": "bitcanna",
+    "api":["https://lcd.bitcanna.io","https://bitcanna.api.kjnodes.com"],
+    "rpc":["https://rpc.bitcanna.io","https://bitcanna.rpc.kjnodes.com"],
+    "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": 118,
+    "min_tx_fee": "5000",
+    "addr_prefix": "bcna",
+    "logo": "/logos/bitcanna.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#3bacce",
+    "assets": [{
+        "base": "ubcna",
+        "symbol": "BCNA",
+        "exponent": 6,
+        "logo": "/logos/bitcanna.png"
+    }]
+}
