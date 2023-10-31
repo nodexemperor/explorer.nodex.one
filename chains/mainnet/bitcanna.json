@@ -15,7 +15,7 @@
     "addr_prefix": "bcna",
     "logo": "/logos/bitcanna.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
-    "theme_color": "#3bacce",
+    "theme_color": "#3ac294",
     "assets": [{
         "base": "ubcna",
         "symbol": "BCNA",
