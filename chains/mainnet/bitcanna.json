@@ -1,7 +1,13 @@
 {
     "chain_name": "bitcanna",
-    "api":["https://lcd.bitcanna.io","https://bitcanna.api.kjnodes.com"],
-    "rpc":["https://rpc.bitcanna.io","https://bitcanna.rpc.kjnodes.com"],
+    "api": [
+        {"provider": "Bitcanna Foundation", "address": "https://lcd.bitcanna.io"},
+        {"provider": "kjnodes.com 🦄", "address": "https://bitcanna.api.kjnodes.com"}
+    ],
+    "rpc": [
+        {"provider": "Bitcanna Foundation", "address": "https://rpc.bitcanna.io"},
+        {"provider": "kjnodes.com 🦄", "address": "https://bitcanna.rpc.kjnodes.com"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.13",
     "coin_type": 118,
@@ -14,6 +20,7 @@
         "base": "ubcna",
         "symbol": "BCNA",
         "exponent": 6,
+        "coingecko_id": "bitcanna",
         "logo": "/logos/bitcanna.png"
     }]
 }

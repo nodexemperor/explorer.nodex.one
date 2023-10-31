@@ -1,8 +1,14 @@
 {
     "chain_name": "bitcanna-testnet",
-    "registry_name": "bitcannatest",
-    "api":["https://lcd-testnet.bitcanna.io","https://bitcanna-testnet.api.kjnodes.com"],
-    "rpc":["https://rpc-testnet.bitcanna.io","https://bitcanna-testnet.rpc.kjnodes.com"],
+    "registry_name": "bitcannat",
+    "api": [
+        {"provider": "Bitcanna Foundation", "address": "https://lcd-testnet.bitcanna.io"},
+        {"provider": "kjnodes.com 🦄", "address": "https://bitcanna-testnet.api.kjnodes.com"}
+    ],
+    "rpc": [
+        {"provider": "Bitcanna Foundation", "address": "https://rpc-testnet.bitcanna.io"},
+        {"provider": "kjnodes.com 🦄", "address": "https://bitcanna-testnet.rpc.kjnodes.com"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.13",
     "coin_type": 118,
@@ -15,6 +21,7 @@
         "base": "ubcna",
         "symbol": "BCNA",
         "exponent": 6,
+        "coingecko_id": "bitcanna",
         "logo": "/logos/bitcanna.png"
     }]
 }
