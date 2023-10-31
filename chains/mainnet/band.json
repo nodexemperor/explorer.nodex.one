@@ -1,8 +1,13 @@
 {
     "chain_name": "band",
-    "api": ["https://laozi1.bandchain.org/api", "https://band-api.polkachu.com"],
-    "rpc": ["http://rpc.laozi1.bandchain.org", "https://band-rpc.polkachu.com"],
-    "snapshot_provider": "",
+    "api": [
+      {"provider": "Band Foundation", "address": "https://laozi1.bandchain.org/api"},
+      {"provider": "polkachu.com", "address": "https://band-api.polkachu.com"}
+    ],
+    "rpc": [
+      {"provider": "Band Foundation", "address": "http://rpc.laozi1.bandchain.org"},
+      {"provider": "polkachu.com", "address": "https://band-rpc.polkachu.com"}
+    ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
     "min_tx_fee": "5000",

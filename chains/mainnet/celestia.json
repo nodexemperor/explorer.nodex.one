@@ -1,9 +1,12 @@
 {
     "chain_name": "celestia",
     "coingecko": "celestia",
-    "api": ["https://celestia-api.polkachu.com"],
-    "rpc": ["https://celestia-rpc.polkachu.com"],
-    "snapshot_provider": "",
+    "api": [
+        {"provider": "polkachu.com", "address": "https:/celestia-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://celestia-rpc.polkachu.com"}
+    ],
     "sdk_version": "0.45.5",
     "coin_type": "118",
     "min_tx_fee": "800",
