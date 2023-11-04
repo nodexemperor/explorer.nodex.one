@@ -1,7 +1,15 @@
 {
     "chain_name": "point",
-    "api": ["https://mainnet-point-api.konsortech.xyz", "https://api.point.nodestake.top"],
-    "rpc": ["https://mainnet-point-rpc.konsortech.xyz", "https://rpc.point.nodestake.top"],
+    "api": [
+        {"provider": "KonsorTech", "address": "https://mainnet-point-api.konsortech.xyz"},
+        {"provider": "Point Foundation", "address": "https://rpc-mainnet-1.point.space:1317"},
+        {"provider": "NodeStake", "address": "https://api.point.nodestake.top"}
+    ],
+    "rpc": [
+        {"provider": "KonsorTech", "address": "https://mainnet-point-rpc.konsortech.xyz"},
+        {"provider": "Point Foundation", "address": "https://rpc-mainnet-1.point.space:26657"},
+        {"provider": "NodeStake", "address": "https://rpc.point.nodestake.top"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.9",
     "coin_type": "60",

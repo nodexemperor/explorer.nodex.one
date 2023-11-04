@@ -1,7 +1,13 @@
 {
     "chain_name": "sommelier",
-    "api": ["https://sommelier-api.polkachu.com", "https://sommelier-api.lavenderfive.com", "https://api-sommelier.pupmos.network"],
-    "rpc": ["https://sommelier-rpc.polkachu.com", "https://sommelier-rpc.lavenderfive.com", "https://rpc-sommelier.pupmos.network"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://sommelier-api.polkachu.com"},
+        {"provider": "PUPMØS", "address": "https://api-sommelier.pupmos.network"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://sommelier-rpc.polkachu.com"},
+        {"provider": "PUPMØS", "address": "https://rpc-sommelier.pupmos.network"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.44.5-patch",
     "coin_type": "118",

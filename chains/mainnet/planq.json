@@ -1,7 +1,13 @@
 {
     "chain_name": "planq",
-    "api": ["https://planq-api.polkachu.com", "https://rest.planq.network"],
-    "rpc": ["https://planq-rpc.polkachu.com", "https://rpc.planq.network"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://planq-api.polkachu.com"},
+        {"provider": "Planq Foundation", "address": "https://rest.planq.network"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://planq-rpc.polkachu.com"},
+        {"provider": "Planq Foundation", "address": "https://rpc.planq.network"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.3",
     "coin_type": "60",

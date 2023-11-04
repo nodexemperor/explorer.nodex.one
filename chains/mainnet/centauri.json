@@ -1,7 +1,15 @@
 {
     "chain_name": "composable",
-    "api": ["https://composable-api.polkachu.com","https://composable.api.kjnodes.com", "https://api.composable.nodestake.top"],
-    "rpc": ["https://composable-rpc.polkachu.com", "https://composable.api.kjnodes.com", "https://rpc.composable.nodestake.top"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://composable-api.polkachu.com"},
+        {"provider": "kjnodes.com 🦄", "address": "https://composable.api.kjnodes.com"},
+        {"provider": "NodeStake", "address": "https://api.composable.nodestake.top"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://composable-rpc.polkachu.com"},
+        {"provider": "kjnodes.com 🦄", "address": "https://composable.rpc.kjnodes.com"},
+        {"provider": "NodeStake", "address": "https://rpc.composable.nodestake.top"}
+    ],
     "coingecko": "",
     "snapshot_provider": "",
     "sdk_version": "0.47.1",

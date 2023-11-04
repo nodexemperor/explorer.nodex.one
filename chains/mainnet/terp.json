@@ -1,7 +1,13 @@
 {
     "chain_name": "terp",
-    "api": ["https://terp-mainnet-api.itrocket.net", "https://terp-testnet-api.itrocket.net"],
-    "rpc": ["https://terp-mainnet-rpc.itrocket.net", "https://terp-testnet-rpc.itrocket.net"],
+    "api": [
+      {"provider": "ITRocket", "address": "https://terp-mainnet-api.itrocket.net"},
+      {"provider": "ITRocket", "address": "https://terp-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+      {"provider": "ITRocket", "address": "https://terp-mainnet-rpc.itrocket.net"},
+      {"provider": "ITRocket", "address": "https://terp-testnet-rpc.itrocket.net"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
     "coin_type": "118",

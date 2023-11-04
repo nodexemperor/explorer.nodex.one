@@ -1,7 +1,13 @@
 {
     "chain_name": "nolus",
-    "api": ["https://pirin-cl.nolus.network:1317", "https//nolus.api.kjnodes.com"],
-    "rpc": ["https://pirin-cl.nolus.network:26657", "https://nolus.rpc.kjnodes.com"],
+    "api": [
+        {"provider": "Nolus Foundation", "address": "https://pirin-cl.nolus.network:1317"},
+        {"provider": "kjnodes.com 🦄", "address": "https//nolus.api.kjnodes.com"}
+    ],
+    "rpc": [
+        {"provider": "Nolus Foundation", "address": "https://pirin-cl.nolus.network:26657"},
+        {"provider": "kjnodes.com 🦄", "address": "https://nolus.rpc.kjnodes.com"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.15",
     "coin_type": "118",

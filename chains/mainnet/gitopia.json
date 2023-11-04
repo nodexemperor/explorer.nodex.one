@@ -1,7 +1,15 @@
 {
     "chain_name": "gitopia",
-    "api": ["https://gitopia-api.polkachu.com","https://gitopia-mainnet-api.itrocket.net","https://api.gitopia.nodestake.top"],
-    "rpc": ["https://gitopia-rpc.polkachu.com","https://gitopia-mainnet-rpc.itrocket.net","https://rpc.gitopia.nodestake.top"],
+    "api": [
+      {"provider": "polkachu.com", "address": "https://gitopia-api.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://gitopia.api.kjnodes.com"},
+      {"provider": "NodeStake", "address": "https://api.gitopia.nodestake.top"}
+    ],
+    "rpc": [
+      {"provider": "polkachu.com", "address": "https://gitopia-rpc.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://gitopia.rpc.kjnodes.com"},
+      {"provider": "NodeStake", "address": "https://rpc.gitopia.nodestake.top"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
     "coin_type": "118",

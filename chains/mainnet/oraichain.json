@@ -1,7 +1,11 @@
 {
     "chain_name": "oraichain",
-    "api": ["https://lcd.orai.io"],
-    "rpc": ["https://rpc.orai.io"],
+    "api": [
+        {"provider": "Orai Foundation", "address": "https://lcd.orai.io"}
+    ],
+    "rpc": [
+        {"provider": "Orai Foundation", "address": "https://rpc.orai.io"}
+    ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
     "min_tx_fee": "5000",

@@ -1,7 +1,13 @@
 {
     "chain_name": "haqq",
-    "api": ["https://rest.cosmos.haqq.network", "https://api.haqq.nodestake.top"],
-    "rpc": ["https://rpc.tm.haqq.network", "https://rpc.haqq.nodestake.top"],    
+    "api": [
+      {"provider": "Haqq Foundation", "address": "https://rest.cosmos.haqq.network"},
+      {"provider": "NodeStake", "address": "https://api.haqq.nodestake.top"}
+    ],
+    "rpc": [
+      {"provider": "Haqq Foundation", "address": "https://rpc.tm.haqq.network"},
+      {"provider": "NodeStake", "address": "https://rpc.haqq.nodestake.top"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.10",
     "coin_type": "60",
