@@ -1,15 +1,21 @@
 {
     "chain_name": "nibiru",
-    "api": ["https://nibiru-testnet.api.kjnodes.com"],
-    "rpc": ["https://nibiru-testnet.rpc.kjnodes.com"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://nibiru-api.polkachu.com"},
+        {"provider": "kjnodes.com 🦄", "address": "https://nibiru.api.kjnodes.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://nibiru-rpc.polkachu.com"},
+        {"provider": "kjnodes.com 🦄", "address": "https://nibiru.rpc.kjnodes.com"}
+    ],
     "snapshot_provider": "",
-    "sdk_version": "0.45.7",
+    "sdk_version": "0.47.5",
     "coin_type": "118",
     "min_tx_fee": "800",
     "addr_prefix": "nibi",
     "logo": "/logos/nibiru.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
-    "theme_color": "#d447f7",
+    "theme_color": "#9891f9",
     "assets": [{
         "base": "unibi",
         "symbol": "UNIBI",
