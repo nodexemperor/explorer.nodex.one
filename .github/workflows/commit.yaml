@@ -26,7 +26,10 @@ jobs:
         git clone https://x-access-token:${{ secrets.ACCESS_TOKEN }}@github.com/nodexemperor/nodexplorer
 
     - name: Setup config
-      run: cp -rf chains/* nodexplorer/chains/
+      shell: bash
+      run: |
+        rm -rf nodexplorer/chains/*
+        cp -rf chains/* nodexplorer/chains/
 
     - name: Setup logos
       run: cp -rf logos nodexplorer/public/
