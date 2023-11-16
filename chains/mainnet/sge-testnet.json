@@ -1,11 +1,11 @@
 {
-    "chain_name": "sge",
-    "registry_name": "sge",
+    "chain_name": "sget",
+    "registry_name": "sge-testnet",
     "api": [
-      {"provider": "polkachu.com", "address": "https://sge-api.polkachu.com"}
+      {"provider": "polkachu.com", "address": "https://sge-testnet-api.polkachu.com"}
     ],
     "rpc": [
-      {"provider": "polkachu.com", "address": "https://sge-rpc.polkachu.com"}
+      {"provider": "polkachu.com", "address": "https://sge-testnet-rpc.polkachu.com"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.45.11",

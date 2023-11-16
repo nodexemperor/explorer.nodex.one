@@ -1,0 +1,25 @@
+{
+    "chain_name": "source",
+    "api": [
+        {"provider": "kjnodes.com 🦄", "address": "https://source.api.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://source-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "kjnodes.com 🦄", "address": "https://source.rpc.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://source-rpc.polkachu.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "source",
+    "logo": "/logos/source.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#d83dff",
+    "assets": [{
+        "base": "usource",
+        "symbol": "SOURCE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/source.png"
+    }]
+}
