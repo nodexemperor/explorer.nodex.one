@@ -1,6 +1,6 @@
 {
-    "chain_name": "sget",
-    "registry_name": "sge-testnet",
+    "chain_name": "sge-testnet",
+    "registry_name": "sget",
     "api": [
       {"provider": "polkachu.com", "address": "https://sge-testnet-api.polkachu.com"}
     ],
