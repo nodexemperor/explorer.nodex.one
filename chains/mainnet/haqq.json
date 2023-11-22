@@ -26,6 +26,7 @@
         "base": "aISLM",
         "symbol": "ISLM",
         "exponent": "18",
+        "coingecko_id": "islamic-coin",
         "logo": "/logos/haqq.png"
       }
     ]

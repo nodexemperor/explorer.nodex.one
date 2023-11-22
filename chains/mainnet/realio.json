@@ -2,11 +2,11 @@
     "chain_name": "realio",
     "api": [
         {"provider": "ITRocket", "address": "https://realio-mainnet-api.itrocket.net"},
-        {"provider": "NodeStake", "address": "https://api.point.nodestake.top"}
+        {"provider": "NodeStake", "address": "https://api.realio.nodestake.top"}
     ],
     "rpc": [
         {"provider": "ITRocket", "address": "https://realio-mainnet-rpc.itrocket.net"},
-        {"provider": "NodeStake", "address": "https://rpc.point.nodestake.top"}
+        {"provider": "NodeStake", "address": "https://rpc.realio.nodestake.top"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.11",
