@@ -1,0 +1,23 @@
+{
+    "chain_name": "union",
+    "api": [
+        {"provider": "polkachu.com", "address": "https://union-testnet-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://union-testnet-rpc.polkachu.com/"}
+    ],
+    "sdk_version": "0.45.9",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "union",
+    "logo": "/logos/union.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#202020",
+    "assets": [{
+        "base": "muno",
+        "symbol": "MUNO",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/union.png"
+    }]
+}
