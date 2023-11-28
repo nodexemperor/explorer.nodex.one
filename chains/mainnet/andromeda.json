@@ -1,8 +1,14 @@
 {
     "chain_name": "andromeda",
-    "api": ["https://andromeda-testnet-api.itrocket.net", "https://andromeda-testnet.api.kjnodes.com","https://api-t.andromeda.nodestake.top"],
-    "rpc": ["https://andromeda-testnet-rpc.itrocket.net", "https://andromeda-testnet.rpc.kjnodes.com","https://rpc-t.andromeda.nodestake.top"],
-    "snapshot_provider": "",
+    "api": [
+      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"},
+      {"provider": "NodeX Emperor", "address": "https://andromeda.api.nodex.one"}
+  ],
+  "rpc": [
+      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"},
+      {"provider": "NodeX Emperor", "address": "https://andromeda.rpc.nodex.one"}
+  ],
+  "snapshot_provider": "",
     "sdk_version": "0.45.12",
     "coin_type": "118",
     "min_tx_fee": "5000",
