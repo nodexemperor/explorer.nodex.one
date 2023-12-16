@@ -19,7 +19,7 @@
         "base": "usource",
         "symbol": "SOURCE",
         "exponent": "6",
-        "coingecko_id": "",
+        "coingecko_id": "source",
         "logo": "/logos/source.png"
     }]
 }
