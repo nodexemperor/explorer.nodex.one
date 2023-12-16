@@ -13,7 +13,7 @@
     "addr_prefix": "quick",
     "logo": "/logos/quicksilver.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
-    "theme_color": "#BDBDBD",
+    "theme_color": "#5E5E5E",
     "assets": [
       {
         "base": "uqck",
