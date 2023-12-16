@@ -38,5 +38,5 @@ jobs:
       run: |
         cd nodexplorer
         git config --global user.name "Salman Wahib"
-        git config --global user.email "hello@sxlmnwb.xyz"
+        git config --global user.email "sxlmnwb@nodex.one"
         git add . && git commit -am "chains: merge with https://github.com/nodexemperor/explorer.nodex.one/commit/${{ env.latestcommit }}" -s && git push || echo "No changes to commit"
