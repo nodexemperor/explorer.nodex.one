@@ -25,6 +25,20 @@
         "exponent": 18,
         "coingecko_id": "",
         "logo": "/logos/makima.jpg"
+      },
+      {
+        "base": "ibc/9DD4CF740476B0FC034FDC1F89E3F8C1DCD7D2CC0CF87D81E89061B7FC6E281A",
+        "symbol": "DYM",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/dymension.png"
+      },
+      {
+        "base": "ibc/9EBC294EC260C5D409ECC166C6EA0C24DB503E75F1389CCAF49B2CFB5881F17E",
+        "symbol": "DYM",
+        "exponent": 18,
+        "coingecko_id": "",
+        "logo": "/logos/dymension.png"
       }
     ]
 }
