@@ -1,0 +1,23 @@
+{
+    "chain_name": "dora",
+    "api": [
+        {"provider": "Dorafactory", "address": "https://vota-vk-rest.dorafactory.org"}
+    ],
+    "rpc": [
+        {"provider": "Dorafactory", "address": "https://vota-vk-rpc.dorafactory.org/"}
+    ],
+    "sdk_version": "0.47.3",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "dora",
+    "logo": "/logos/dora.svg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#f0651f",
+    "assets": [{
+        "base": "peaka",
+        "symbol": "DORA",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/dora.svg"
+    }]
+}
