@@ -1,0 +1,25 @@
+{
+    "chain_name": "soarchain",
+    "api": [
+      {"provider": "polkachu.com", "address": "https://soarchain-testnet-api.polkachu.com"}
+  ],
+  "rpc": [
+      {"provider": "polkachu.com", "address": "https://soarchain-testnet-rpc.polkachu.com"}
+  ],
+  "snapshot_provider": "",
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "soar",
+    "logo": "/logos/soarchain.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#4520e6",
+    "assets": [
+      {
+        "base": "utmotus",
+        "symbol": "MOTUS",
+        "exponent": "6",
+        "logo": "/logos/soarchain.png"
+      }
+    ]
+  }
