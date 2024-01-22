@@ -1,10 +1,11 @@
 {
-    "chain_name": "blockx",
+    "chain_name": "blockx-testnet",
+    "registry_name": "blockxt",
     "api": [
-      {"provider": "NodeStake", "address": "https://api.blockx.nodestake.org"}
+      {"provider": "NodeStake", "address": "https://api-t.blockx.nodestake.top"}
   ],
   "rpc": [
-      {"provider": "NodeStake", "address": "https://rpc.blockx.nodestake.org"}
+      {"provider": "NodeStake", "address": "https://rpc-t.blockx.nodestake.top"}
   ],
     "snapshot_provider": "",
     "sdk_version": "0.45.7",
