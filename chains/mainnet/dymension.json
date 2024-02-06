@@ -1,7 +1,13 @@
 {
     "chain_name": "dymension",
-    "api": ["https://dymension-testnet.api.kjnodes.com","https://api-1.dymension.nodes.guru"],
-    "rpc": ["https://dymension-testnet.rpc.kjnodes.com","https://rpc-1.dymension.nodes.guru"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://dymension-api.polkachu.com"},
+        {"provider": "Nodes.Guru", "address": "https://api-1.dymension.nodes.guru"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://dymension-rpc.polkachu.com"},
+        {"provider": "Nodes.Guru", "address": "https://rpc-1.dymension.nodes.guru"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.45.10",
     "coin_type": "60",
@@ -11,10 +17,10 @@
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "theme_color": "#c9a282",
     "assets": [{
-        "base": "udym",
+        "base": "adym",
         "symbol": "DYM",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "dymension",
         "logo": "/logos/dymension.png"
     }]
 }
