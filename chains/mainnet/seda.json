@@ -9,7 +9,7 @@
       {"provider": "kjnodes.com 🦄", "address": "https://seda-testnet.rpc.kjnodes.com"}
     ],
     "sdk_version": "0.50.3",
-    "coin_type": "60",
+    "coin_type": "118",
     "min_tx_fee": "5000",
     "addr_prefix": "seda",
     "logo": "/logos/seda.png",
