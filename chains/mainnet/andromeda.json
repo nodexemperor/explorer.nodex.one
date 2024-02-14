@@ -1,12 +1,10 @@
 {
     "chain_name": "andromeda",
     "api": [
-      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"},
-      {"provider": "NodeX Emperor", "address": "https://andromeda.api.nodex.one"}
+      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"}
   ],
   "rpc": [
-      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"},
-      {"provider": "NodeX Emperor", "address": "https://andromeda.rpc.nodex.one"}
+      {"provider": "kjnodes.com 🦄", "address": "https://andromeda.api.kjnodes.com"}
   ],
   "snapshot_provider": "",
     "sdk_version": "0.45.12",

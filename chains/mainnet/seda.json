@@ -1,0 +1,27 @@
+{
+    "chain_name": "seda",
+    "api": [
+      {"provider": "polkachu.com", "address": "https://seda-testnet-api.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://seda-testnet.api.kjnodes.com"}
+    ],
+    "rpc": [
+      {"provider": "polkachu.com", "address": "https://seda-testnet-rpc.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://seda-testnet.rpc.kjnodes.com"}
+    ],
+    "sdk_version": "0.50.3",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "addr_prefix": "seda",
+    "logo": "/logos/seda.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#794DC9",
+    "assets": [
+      {
+        "base": "aseda",
+        "symbol": "SEDA",
+        "exponent": "18",
+        "coingecko_id": "",
+        "logo": "/logos/seda.png"
+      }
+    ]
+  }
