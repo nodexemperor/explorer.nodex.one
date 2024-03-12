@@ -1,0 +1,25 @@
+{
+    "chain_name": "swisstronik",
+    "api": [
+      {"provider": "Swisstronik", "address": "https://api.testnet.swisstronik.com"}
+  ],
+  "rpc": [
+      {"provider": "Swisstronik", "address": "https://rpc.testnet.swisstronik.com"}
+  ],
+  "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "addr_prefix": "swtr",
+    "logo": "/logos/swisstronik.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#e32f07",
+    "assets": [
+      {
+        "base": "uswtr",
+        "symbol": "SWTR",
+        "exponent": "18",
+        "logo": "/logos/swisstronik.png"
+      }
+    ]
+  }
