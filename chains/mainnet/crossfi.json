@@ -12,7 +12,7 @@
     "min_tx_fee": "5000",
     "addr_prefix": "mx",
     "logo": "/logos/crossfi.png",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_features": ["eth-address-gen", "eth-key-sign"],
     "theme_color": "#0ebae6",
     "assets": [
       {
