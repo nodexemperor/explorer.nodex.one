@@ -1,0 +1,25 @@
+{
+    "chain_name": "warden",
+    "api": [
+      {"provider": "ITRocket", "address": "https://warden-testnet-api.itrocket.net"}
+  ],
+  "rpc": [
+      {"provider": "ITRocket", "address": "https://warden-testnet-rpc.itrocket.net"}
+  ],
+  "snapshot_provider": "",
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "art",
+    "logo": "/logos/warden.png",
+    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "theme_color": "#ffaeee",
+    "assets": [
+      {
+        "base": "uward",
+        "symbol": "WARD",
+        "exponent": "6",
+        "logo": "/logos/warden.png"
+      }
+    ]
+  }
