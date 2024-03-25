@@ -1,0 +1,25 @@
+{
+    "chain_name": "alignedlayer",
+    "api": [
+      {"provider": "alignedlayer.com", "address": "https://api-node.alignedlayer.com"}
+    ],
+    "rpc": [
+      {"provider": "alignedlayer.com", "address": "https://rpc-node.alignedlayer.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "band",
+    "logo": "/logos/aligned.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#d9f99d",
+    "assets": [
+      {
+        "base": "stake",
+        "symbol": "STAKE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/aligned.png"
+      }
+    ]
+  }
