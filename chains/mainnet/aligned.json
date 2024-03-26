@@ -12,7 +12,7 @@
     "addr_prefix": "band",
     "logo": "/logos/aligned.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
-    "theme_color": "#d9f99d",
+    "theme_color": "#A3E165",
     "assets": [
       {
         "base": "stake",
