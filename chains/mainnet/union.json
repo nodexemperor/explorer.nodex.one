@@ -1,10 +1,10 @@
 {
     "chain_name": "union",
     "api": [
-        {"provider": "polkachu.com", "address": "https://union-testnet-api.polkachu.com"}
+        {"provider": "poisonphang", "address": "https://api.testnet.seed.poisonphang.com"}
     ],
     "rpc": [
-        {"provider": "polkachu.com", "address": "https://union-testnet-rpc.polkachu.com/"}
+        {"provider": "poisonphang", "address": "https://rpc.testnet.seed.poisonphang.com"}
     ],
     "sdk_version": "0.45.9",
     "coin_type": "118",
