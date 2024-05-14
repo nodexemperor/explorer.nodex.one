@@ -1,0 +1,23 @@
+{
+    "chain_name": "initia",
+    "api": [
+        {"provider": "Trusted Point", "address": "https://api-initia-testnet.trusted-point.com"}
+    ],
+    "rpc": [
+        {"provider": "Trusted Point", "address": "https://rpc-initia-testnet.trusted-point.com"}
+    ],
+    "sdk_version": "0.50.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "init",
+    "logo": "/logos/initia.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#202020",
+    "assets": [{
+        "base": "uinit",
+        "symbol": "INIT",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/initia.png"
+    }]
+}
