@@ -1,10 +1,10 @@
 {
     "chain_name": "initia",
     "api": [
-        {"provider": "Trusted Point", "address": "https://api-initia-testnet.trusted-point.com"}
+        {"provider": "newmetric", "address": "https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rest.ue1-prod.newmetric.xyz"}
     ],
     "rpc": [
-        {"provider": "Trusted Point", "address": "https://rpc-initia-testnet.trusted-point.com"}
+        {"provider": "newmetric", "address": "https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rpc.ue1-prod.newmetric.xyz"}
     ],
     "sdk_version": "0.50.6",
     "coin_type": "118",
