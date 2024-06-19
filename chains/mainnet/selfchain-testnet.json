@@ -1,7 +1,12 @@
 {
-    "chain_name": "selfchain",
-    "api": ["https://api-devnet.selfchain.xyz", "https://api-t.self.nodestake.top"],
-    "rpc": ["https://rpc-devnet.selfchain.xyz", "https://rpc-t.self.nodestake.top"],
+    "chain_name": "selfchain-testnet",
+    "registry_name": "selfchaint",
+    "api": [
+      {"provider": "selfchain.io", "address": "https://api-devnet.selfchain.xyz"}
+    ],
+    "rpc": [
+      {"provider": "selfchain.io", "address": "https://rpc-devnet.selfchain.xyz"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.7",
     "coin_type": "118",
