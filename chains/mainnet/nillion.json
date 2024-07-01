@@ -1,0 +1,25 @@
+{
+    "chain_name": "nillion",
+    "api": [
+      {"provider": "Lavender.Five Nodes", "address": "https://testnet-nillion-api.lavenderfive.com"}
+    ],
+    "rpc": [
+      {"provider": "Lavender.Five Nodes", "address": "https://testnet-nillion-rpc.lavenderfive.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "nillion",
+    "logo": "/logos/nillion.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#0122f9",
+    "assets": [
+      {
+        "base": "unil",
+        "symbol": "NIL",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/nillion.png"
+      }
+    ]
+  }
