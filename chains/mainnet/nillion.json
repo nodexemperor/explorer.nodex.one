@@ -1,9 +1,11 @@
 {
     "chain_name": "nillion",
     "api": [
+      {"provider": "polkachu.com", "address": "https://nillion-testnet-api.polkachu.com"},
       {"provider": "Lavender.Five Nodes", "address": "https://testnet-nillion-api.lavenderfive.com"}
     ],
     "rpc": [
+      {"provider": "polkachu.com", "address": "https://nillion-testnet-rpc.polkachu.com"},
       {"provider": "Lavender.Five Nodes", "address": "https://testnet-nillion-rpc.lavenderfive.com"}
     ],
     "sdk_version": "0.45.15",
