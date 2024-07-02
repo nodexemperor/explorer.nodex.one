@@ -2,15 +2,17 @@
     "chain_name": "initia",
     "api": [
         {"provider": "newmetric", "address": "https://lcd.initiation-1.initia.xyz"},
-        {"provider": "NodeX Emperor", "address": "https://initia-testnet.api.nodex.one"}
+        {"provider": "NodeX Emperor", "address": "https://initia-testnet.api.nodex.one"},
+        {"provider": "kjnodes.com 🦄", "address": "https://initia-testnet.api.kjnodes.com"}
     ],
     "rpc": [
         {"provider": "newmetric", "address": "https://rpc.initiation-1.initia.xyz"},
-        {"provider": "NodeX Emperor", "address": "https://initia-testnet.rpc.nodex.one"}
+        {"provider": "NodeX Emperor", "address": "https://initia-testnet.rpc.nodex.one"},
+        {"provider": "kjnodes.com 🦄", "address": "https://initia-testnet.rpc.kjnodes.com"}
     ],
-    "sdk_version": "0.50.6",
+    "sdk_version": "0.0.0-20240514173001-c037b6c44d98",
     "coin_type": "118",
-    "min_tx_fee": "6000",
+    "min_tx_fee": "5000",
     "addr_prefix": "init",
     "logo": "/logos/initia.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
