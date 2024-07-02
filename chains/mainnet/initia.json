@@ -1,14 +1,16 @@
 {
     "chain_name": "initia",
     "api": [
-        {"provider": "newmetric", "address": "https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rest.ue1-prod.newmetric.xyz"}
+        {"provider": "newmetric", "address": "https://lcd.initiation-1.initia.xyz"},
+        {"provider": "NodeX Emperor", "address": "https://initia-testnet.api.nodex.one"}
     ],
     "rpc": [
-        {"provider": "newmetric", "address": "https://b545809c-5562-4e60-b5a1-22e83df57748.initiation-1.mesa-rpc.ue1-prod.newmetric.xyz"}
+        {"provider": "newmetric", "address": "https://rpc.initiation-1.initia.xyz"},
+        {"provider": "NodeX Emperor", "address": "https://initia-testnet.rpc.nodex.one"}
     ],
     "sdk_version": "0.50.6",
     "coin_type": "118",
-    "min_tx_fee": "5000",
+    "min_tx_fee": "6000",
     "addr_prefix": "init",
     "logo": "/logos/initia.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
@@ -17,7 +19,18 @@
         "base": "uinit",
         "symbol": "INIT",
         "exponent": "6",
-        "coingecko_id": "",
         "logo": "/logos/initia.png"
+    },{
+        "base": "USDC",
+        "symbol": "USDC",
+        "exponent": "6",
+        "coingecko_id": "USDC", 
+        "logo": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/initia/images/USDC.svg"
+    },{
+        "base": "move/dbf06c48af3984ec6d9ae8a9aa7dbb0bb1e784aa9b8c4a5681af660cf8558d7d",
+        "symbol": "USDC-INIT LP",
+        "exponent": "6",
+        "coingecko_id": "", 
+        "logo": "https://raw.githubusercontent.com/initia-labs/initia-registry/main/testnets/initia/images/USDC-INIT.svg"
     }]
 }
