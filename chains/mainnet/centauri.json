@@ -1,22 +1,18 @@
 {
-    "chain_name": "composable",
+    "chain_name": "picasso",
     "api": [
-        {"provider": "polkachu.com", "address": "https://composable-api.polkachu.com"},
-        {"provider": "kjnodes.com 🦄", "address": "https://composable.api.kjnodes.com"},
-        {"provider": "NodeStake", "address": "https://api.composable.nodestake.top"}
+        {"provider": "polkachu.com", "address": "https://picasso-api.polkachu.com"}
     ],
     "rpc": [
-        {"provider": "polkachu.com", "address": "https://composable-rpc.polkachu.com"},
-        {"provider": "kjnodes.com 🦄", "address": "https://composable.rpc.kjnodes.com"},
-        {"provider": "NodeStake", "address": "https://rpc.composable.nodestake.top"}
+        {"provider": "polkachu.com", "address": "https://picasso-rpc.polkachu.com"}
     ],
     "coingecko": "",
     "snapshot_provider": "",
     "sdk_version": "0.47.1",
     "coin_type": "118",
     "min_tx_fee": "5000",
-    "addr_prefix": "centauri",
-    "logo": "/logos/composable.png",
+    "addr_prefix": "pica",
+    "logo": "/logos/picasso.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#6d4e78",
     "assets": [{
@@ -24,6 +20,6 @@
         "symbol": "PICA",
         "exponent": "12",
         "coingecko_id": "picasso",
-        "logo": "/logos/composable.jpg"
+        "logo": "/logos/picasso.jpg"
     }]
 }
