@@ -1,0 +1,25 @@
+{
+    "chain_name": "allora",
+    "api": [
+      {"provider": "polkachu.com", "address": "https://allora-testnet-api.polkachu.com"}
+    ],
+    "rpc": [
+      {"provider": "polkachu.com", "address": "https://allora-testnet-rpc.polkachu.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "allo",
+    "logo": "/logos/allora.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#202020",
+    "assets": [
+      {
+        "base": "uallo",
+        "symbol": "ALLO",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/allora.png"
+      }
+    ]
+  }

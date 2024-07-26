@@ -1,0 +1,25 @@
+{
+    "chain_name": "symphony",
+    "api": [
+      {"provider": "polkachu.com", "address": "https://symphony-testnet-api.polkachu.com"}
+    ],
+    "rpc": [
+      {"provider": "polkachu.com", "address": "https://symphony-testnet-rpc.polkachu.com"}
+    ],
+    "sdk_version": "0.45.15",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "symphony",
+    "logo": "/logos/symphony.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#56CDFC",
+    "assets": [
+      {
+        "base": "note",
+        "symbol": "NOTE",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/symphony.png"
+      }
+    ]
+  }
