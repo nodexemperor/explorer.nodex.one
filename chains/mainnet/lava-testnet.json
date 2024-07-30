@@ -7,7 +7,7 @@
     "sdk_version": "0.45.6",
     "coin_type": "118",
     "min_tx_fee": "800",
-    "addr_prefix": "lava",
+    "addr_prefix": "lava@",
     "logo": "/logos/lava.jpg", 
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#d7001f",
