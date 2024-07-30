@@ -1,7 +1,8 @@
 {
-    "chain_name": "lava",
-    "api": ["https://lava.tendermintrpc.lava.build"],
-    "rpc": ["https://lava.rest.lava.build"],
+    "chain_name": "lava-testnet",
+    "registry_name": "lavat",
+    "api": ["https://lava-testnet-api.polkachu.com", "https://lava-testnet.api.kjnodes.com", "https://lava-testnet-api.itrocket.net", "https://api-t.lava.nodestake.top"],
+    "rpc": ["https://lava-testnet-rpc.polkachu.com", "https://lava-testnet.rpc.kjnodes.com", "https://lava-testnet-rpc.itrocket.net", "https://rpc-t.lava.nodestake.top"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",
