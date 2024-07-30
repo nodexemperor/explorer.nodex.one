@@ -1,7 +1,7 @@
 {
     "chain_name": "lava",
-    "api": ["https://lava.tendermintrpc.lava.build"],
-    "rpc": ["https://lava.rest.lava.build"],
+    "api": ["https://lava.rest.lava.build"],
+    "rpc": ["https://lava.tendermintrpc.lava.build"],
     "snapshot_provider": "",
     "sdk_version": "0.45.6",
     "coin_type": "118",
