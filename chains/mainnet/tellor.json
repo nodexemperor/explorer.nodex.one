@@ -1,10 +1,10 @@
 {
     "chain_name": "tellor",
     "api": [
-      {"provider": "tellorlayer.com", "address": "https://tellorlayer.com/api"}
+      {"provider": "tellorlayer.com", "address": "http://tellorlayer.com:1317"}
     ],
     "rpc": [
-      {"provider": "tellorlayer.com", "address": "https://tellorlayer.com/rpc"}
+      {"provider": "tellorlayer.com", "address": "http://tellorlayer.com:26657"}
     ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
