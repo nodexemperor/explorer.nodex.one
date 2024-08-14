@@ -1,10 +1,10 @@
 {
     "chain_name": "tellor",
     "api": [
-      {"provider": "NodeX Emperor", "address": "https://tellor-testnet.api.nodex.one"}
+      {"provider": "tellorlayer.com", "address": "https://tellorlayer.com/api"}
     ],
     "rpc": [
-      {"provider": "NodeX Emperor", "address": "https://tellor-testnet.rpc.nodex.one"}
+      {"provider": "tellorlayer.com", "address": "https://tellorlayer.com/rpc"}
     ],
     "sdk_version": "0.45.15",
     "coin_type": "118",
