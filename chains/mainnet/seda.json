@@ -1,12 +1,12 @@
 {
     "chain_name": "seda",
     "api": [
-      {"provider": "polkachu.com", "address": "https://seda-testnet-api.polkachu.com"},
-      {"provider": "kjnodes.com 🦄", "address": "https://seda-testnet.api.kjnodes.com"}
+      {"provider": "polkachu.com", "address": "https://seda-api.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://seda.api.kjnodes.com"}
     ],
     "rpc": [
-      {"provider": "polkachu.com", "address": "https://seda-testnet-rpc.polkachu.com"},
-      {"provider": "kjnodes.com 🦄", "address": "https://seda-testnet.rpc.kjnodes.com"}
+      {"provider": "polkachu.com", "address": "https://seda-rpc.polkachu.com"},
+      {"provider": "kjnodes.com 🦄", "address": "https://seda.rpc.kjnodes.com"}
     ],
     "sdk_version": "0.50.3",
     "coin_type": "118",

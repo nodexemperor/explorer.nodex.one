@@ -1,11 +1,10 @@
 {
     "chain_name": "entangle",
     "api": [
-        {"provider": "NodeStake", "address": "https://api-t.entangle.nodestake.top"},
-        {"provider": "🔥STAVR🔥", "address": "https://entangle.api.t.stavr.tech"}
+        {"provider": "NodeX Emperor", "address": "https://entangle.api.nodex.one"}
     ],
     "rpc": [
-        {"provider": "NodeStake", "address": "https://rpc-t.entangle.nodestake.top"}
+        {"provider": "NodeX Emperor", "address": "https://entangle.rpc.nodex.one"}
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.12",
@@ -17,7 +16,7 @@
         "high": 4000000000000000
       },
     "addr_prefix": "ethm",
-    "logo": "/logos/entangle.png",
+    "logo": "/logos/entangle.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "theme_color": "#FB37FF",
     "assets": [{
@@ -25,6 +24,6 @@
         "symbol": "NGL",
         "exponent": "18",
         "coingecko_id": "",
-        "logo": "/logos/entangle.png"
+        "logo": "/logos/entangle.jpg"
     }]
 }

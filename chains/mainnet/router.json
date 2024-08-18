@@ -1,7 +1,14 @@
 {
     "chain_name": "router",
-    "api": ["https://lcd.testnet.routerchain.dev"],
-    "rpc": ["https://tm.rpc.testnet.routerchain.dev"],
+    "coingecko": "",
+    "api": [
+        {"provider": "polkachu.com", "address": "https://router-api.polkachu.com"},
+        {"provider": "routerprotocol.com", "address": "https://sentry.lcd.routerprotocol.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://router-api.polkachu.com"},
+        {"provider": "routerprotocol.com", "address": "https://sentry.tm.rpc.routerprotocol.com"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.8",
     "coin_type": "60",
@@ -13,13 +20,15 @@
       },
     "addr_prefix": "router",
     "logo": "/logos/router.png",
-    "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
+    "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#fe4356",
-    "assets": [{
+    "assets": [
+      {
         "base": "route",
         "symbol": "ROUTE",
         "exponent": "18",
-        "coingecko_id": "route",
+        "coingecko_id": "router-protocol-2",
         "logo": "/logos/router.png"
-    }]
+      }
+    ]
 }

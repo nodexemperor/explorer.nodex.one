@@ -1,10 +1,10 @@
 {
     "chain_name": "artela",
     "api": [
-      {"provider": "Nodestake", "address": "https://api-t.artela.nodestake.org"}
+      {"provider": "polkachu.com", "address": "https://artela-testnet-api.polkachu.com"}
   ],
   "rpc": [
-      {"provider": "Nodestake", "address": "https://rpc-t.artela.nodestake.org"}
+      {"provider": "polkachu.com", "address": "https://artela-testnet-rpc.polkachu.com"}
   ],
   "snapshot_provider": "",
     "sdk_version": "0.47.4",
