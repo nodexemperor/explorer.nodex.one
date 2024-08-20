@@ -1,5 +1,5 @@
 {
-    "chain_name": "tellor",
+    "chain_name": "tellorlayer",
     "api": [
       {"provider": "NodeX Emperor", "address": "https://tellor-testnet.api.nodex.one"}
     ],
