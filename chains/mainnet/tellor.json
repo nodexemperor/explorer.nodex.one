@@ -9,7 +9,7 @@
     "sdk_version": "0.45.15",
     "coin_type": "118",
     "min_tx_fee": "5000",
-    "addr_prefix": "allo",
+    "addr_prefix": "tellor",
     "logo": "/logos/tellor.png",
     "keplr_features": ["ibc-transfer", "ibc-go"],
     "theme_color": "#14a278",
