@@ -10,7 +10,7 @@
     ],
     "snapshot_provider": "",
     "sdk_version": "0.46.11",
-    "coin_type": "505",
+    "coin_type": "60",
     "min_tx_fee": "5000",
     "keplr_price_step": {
         "low": 2400000000000000,
