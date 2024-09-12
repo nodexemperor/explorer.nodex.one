@@ -1,0 +1,26 @@
+{
+    "chain_name": "xion",
+    "registry_name": "xion",
+    "api": [
+        {"provider": "polkachu.com", "address": "https://xion-rpc.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://xion.rpc.nodex.one"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://xion-api.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://xion.api.nodex.one"}
+    ],
+    "sdk_version": "0.45.9",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "xion",
+    "logo": "/logos/xion.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#202020",
+    "assets": [{
+        "base": "uxion",
+        "symbol": "XION",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/xion.png"
+    }]
+}
