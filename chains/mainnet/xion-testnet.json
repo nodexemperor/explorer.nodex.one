@@ -2,12 +2,12 @@
     "chain_name": "xion-testnet",
     "registry_name": "xiont",
     "api": [
-        {"provider": "polkachu.com", "address": "https://xion-testnet-rpc.polkachu.com"},
-        {"provider": "NodeX Emperor", "address": "https://xion-testnet.rpc.nodex.one"}
-    ],
-    "rpc": [
         {"provider": "polkachu.com", "address": "https://xion-testnet-api.polkachu.com"},
         {"provider": "NodeX Emperor", "address": "https://xion-testnet.api.nodex.one"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://xion-testnet-rpc.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://xion-testnet.rpc.nodex.one"}
     ],
     "sdk_version": "0.45.9",
     "coin_type": "118",

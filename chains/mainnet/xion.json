@@ -2,12 +2,12 @@
     "chain_name": "xion",
     "registry_name": "xion",
     "api": [
-        {"provider": "polkachu.com", "address": "https://xion-rpc.polkachu.com"},
-        {"provider": "NodeX Emperor", "address": "https://xion.rpc.nodex.one"}
-    ],
-    "rpc": [
         {"provider": "polkachu.com", "address": "https://xion-api.polkachu.com"},
         {"provider": "NodeX Emperor", "address": "https://xion.api.nodex.one"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://xion-rpc.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://xion.rpc.nodex.one"}
     ],
     "sdk_version": "0.45.9",
     "coin_type": "118",
