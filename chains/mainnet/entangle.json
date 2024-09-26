@@ -1,9 +1,11 @@
 {
     "chain_name": "entangle",
     "api": [
+        {"provider": "moonbridge.team", "address": "https://entangle.api.moonbridge.team"},
         {"provider": "NodeX Emperor", "address": "https://entangle.api.nodex.one"}
     ],
     "rpc": [
+        {"provider": "moonbridge.team", "address": "https://entangle.rpc.moonbridge.team"},
         {"provider": "NodeX Emperor", "address": "https://entangle.rpc.nodex.one"}
     ],
     "snapshot_provider": "",
@@ -15,7 +17,7 @@
         "average": 3000000000000000,
         "high": 4000000000000000
       },
-    "addr_prefix": "ethm",
+    "addr_prefix": "ent",
     "logo": "/logos/entangle.jpg",
     "keplr_features": ["ibc-transfer", "ibc-go", "eth-address-gen", "eth-key-sign"],
     "theme_color": "#FB37FF",
@@ -23,7 +25,7 @@
         "base": "aNGL",
         "symbol": "NGL",
         "exponent": "18",
-        "coingecko_id": "",
+        "coingecko_id": "entangle",
         "logo": "/logos/entangle.jpg"
     }]
 }
