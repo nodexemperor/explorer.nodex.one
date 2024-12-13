@@ -1,0 +1,19 @@
+{
+    "chain_name": "entrypoint",
+    "api": ["https://testnet-rest.entrypoint.zone"],
+    "rpc": ["https://testnet-rpc.entrypoint.zone"],
+    "snapshot_provider": "",
+    "sdk_version": "0.37.2",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "entrypoint",
+    "logo": "/logos/entrypoint.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#7ee900",
+    "assets": [{
+        "base": "uentry",
+        "symbol": "ENTRY",
+        "exponent": "6",
+        "logo": "/logos/entrypoint.png"
+    }]
+}

@@ -1,7 +1,17 @@
 {
     "chain_name": "elys",
-    "api": ["https://elys-testnet-api.polkachu.com","https://elys-testnet.api.kjnodes.com","https://elys-testnet-api.itrocket.net","https://api-t.elys.nodestake.top"],
-    "rpc": ["https://elys-testnet-rpc.polkachu.com","https://elys-testnet.rpc.kjnodes.com","https://elys-testnet-rpc.itrocket.net","https://rpc-t.elys.nodestake.top"],
+    "api": [
+        {"provider": "polkachu.com", "address": "https://elys-api.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://elys.api.nodex.one"},
+        {"provider": "StakeTown", "address": "https://elys-api.stake-town.com"},
+        {"provider": "Synergy Nodes", "address": "https://elys-api.synergynodes.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://elys-rpc.polkachu.com"},
+        {"provider": "NodeX Emperor", "address": "https://elys.rpc.nodex.one"},
+        {"provider": "StakeTown", "address": "https://elys-rpc.stake-town.com"},
+        {"provider": "Synergy Nodes", "address": "https://elys-rpc.synergynodes.com"}
+    ],
     "snapshot_provider": "",
     "sdk_version": "0.46.7",
     "coin_type": "118",
@@ -14,7 +24,7 @@
         "base": "uelys",
         "symbol": "ELYS",
         "exponent": "6",
-        "coingecko_id": "",
+        "coingecko_id": "elys-network",
         "logo": "/logos/elys.png"
     }]
 }

@@ -1,0 +1,24 @@
+{
+    "chain_name": "pryzm",
+    "api": [
+        {"provider": "polkachu.com", "address": "https://pryzm-testnet-api.polkachu.com"}
+    ],
+    "rpc": [
+        {"provider": "polkachu.com", "address": "https://pryzm-testnet-rpc.polkachu.com"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.6",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "pryzm",
+    "logo": "/logos/pryzm.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#202020",
+    "assets": [{
+        "base": "upryzm",
+        "symbol": "PRYZM",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/pryzm.png"
+    }]
+}

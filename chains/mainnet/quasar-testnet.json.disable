@@ -1,0 +1,26 @@
+{
+    "chain_name": "quasar-testnet",
+    "registry_name": "quasart",
+    "api": [
+        {"provider": "kjnodes.com 🦄", "address": "https://quasar-testnet.api.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://quasar-testnet.rpc.kjnodes.com"}
+    ],
+    "rpc": [
+        {"provider": "kjnodes.com 🦄", "address": "https://quasar.rpc.kjnodes.com"},
+        {"provider": "polkachu.com", "address": "https://quasar-testnet-rpc.polkachu.com"}
+    ],
+    "sdk_version": "0.45.16",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "quasar",
+    "logo": "/logos/quasar.png",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#7a87f9",
+    "assets": [{
+        "base": "uqsr",
+        "symbol": "QSR",
+        "exponent": "6",
+        "coingecko_id": "quasar-2",
+        "logo": "/logos/quasar.png"
+    }]
+}

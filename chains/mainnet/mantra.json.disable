@@ -1,0 +1,26 @@
+{
+    "chain_name": "mantra",
+    "api": [
+        {"provider": "KonsorTech", "address": "https://testnet-mantra-api.konsortech.xyz"},
+        {"provider": "itrocket.net", "address": "https://mantra-testnet-api.itrocket.net"}
+    ],
+    "rpc": [
+        {"provider": "KonsorTech", "address": "https://testnet-mantra-rpc.konsortech.xyz"},
+        {"provider": "itrocket.net", "address": "https://mantra-testnet-rpc.itrocket.net"}
+    ],
+    "snapshot_provider": "",
+    "sdk_version": "0.47.4",
+    "coin_type": "118",
+    "min_tx_fee": "5000",
+    "addr_prefix": "mantra",
+    "logo": "/logos/mantra.jpg",
+    "keplr_features": ["ibc-transfer", "ibc-go"],
+    "theme_color": "#ae528b",
+    "assets": [{
+        "base": "uaum",
+        "symbol": "AUM",
+        "exponent": "6",
+        "coingecko_id": "",
+        "logo": "/logos/mantra.jpg"
+    }]
+}

@@ -1,0 +1,25 @@
+{
+    "chain_name": "crossfi",
+    "api": [
+      {"provider": "polkachu.com", "address": "https://crossfi-testnet-api.polkachu.com"}
+  ],
+  "rpc": [
+      {"provider": "polkachu.com", "address": "https://crossfi-testnet-api.polkachu.com"}
+  ],
+  "snapshot_provider": "",
+    "sdk_version": "0.46.13",
+    "coin_type": "60",
+    "min_tx_fee": "5000",
+    "addr_prefix": "mx",
+    "logo": "/logos/crossfi.png",
+    "keplr_features": ["eth-address-gen", "eth-key-sign"],
+    "theme_color": "#0ebae6",
+    "assets": [
+      {
+        "base": "mpx",
+        "symbol": "PX",
+        "exponent": "18",
+        "logo": "/logos/crossfi.png"
+      }
+    ]
+  }
